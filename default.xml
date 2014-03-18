@@ -2,15 +2,17 @@
 <manifest>
 
   <remote  name="aosp"
-           fetch=".." />
+           fetch="https://android.googlesource.com/"
+           review="https://android-review.googlesource.com/" />
+
+  <remote  name="github"
+           fetch="git://github.com/" />
+
   <default revision="refs/tags/android-4.4.2_r2"
            remote="aosp"
            sync-j="4" />
 
-  <remote name="github"
-           fetch="git://github.com/" />
-
-  <!-- Chronos -->
+    <!-- Chronos -->
   <project path="build" name="ChronosRom/chronos_build" remote="github" revision="cr-4.4" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
@@ -422,8 +424,7 @@
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" groups="pdk" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" />
   <project path="sdk" name="platform/sdk" />
-  
-  <project path="system/extras" name="platform/system/extras" groups="pdk" />
+   <project path="system/extras" name="platform/system/extras" groups="pdk" />
   <project path="system/media" name="platform/system/media" groups="pdk" />
   <project path="system/netd" name="platform/system/netd" groups="pdk" />
   <project path="system/security" name="platform/system/security" groups="pdk" />
