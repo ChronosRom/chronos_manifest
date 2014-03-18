@@ -16,7 +16,7 @@
   <project path="build" name="ChronosRom/chronos_build" remote="github" revision="cr-4.4" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  <project path="chronos_manifest" name="ChronosRom/chronos_manifest" remote="github" revision="cr4.4" />
+  <project path="chronos_manifest" name="ChronosRom/chronos_manifest" remote="github" revision="cr-4.4" />
   <project path="vendor/chronos" name="ChronosRom/vendor_chronos" remote="github" revision="cr-4.4" >
       <copyfile src="tools/build.sh" dest="build.sh" />
   </project>
