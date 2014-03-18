@@ -5,23 +5,23 @@
            fetch="https://android.googlesource.com/"
            review="https://android-review.googlesource.com/" />
 
-  <remote  name="github"
-           fetch="git://github.com/" />
+  <remote  name="ChronosRom"
+           fetch="https://github.com/" />
 
   <default revision="refs/tags/android-4.4.2_r2"
            remote="aosp"
            sync-j="4" />
 
     <!-- Chronos -->
-  <project path="build" name="ChronosRom/chronos_build" remote="github" revision="cr-4.4" >
+  <project path="build" name="ChronosRom/chronos_build" remote="ChronosRom" revision="cr-4.4" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  <project path="chronos_manifest" name="ChronosRom/chronos_manifest" remote="github" revision="cr-4.4" />
-  <project path="vendor/chronos" name="ChronosRom/vendor_chronos" remote="github" revision="cr-4.4" >
+  <project path="chronos_manifest" name="ChronosRom/chronos_manifest" remote="ChronosRom" revision="cr-4.4" />
+  <project path="vendor/chronos" name="ChronosRom/vendor_chronos" remote="ChronosRom" revision="cr-4.4" >
       <copyfile src="tools/build.sh" dest="build.sh" />
   </project>
-  <project path="system/core" name="ChronosRom/platform_system_core" remote="github" revision="cr-4.4" groups="pdk" />
-  <project path="vendor/cm" name="ChronosRom/android_vendor_cm" remote="github" revision="cm-11.0" />
+  <project path="system/core" name="ChronosRom/platform_system_core" remote="ChronosRom" revision="cr-4.4" groups="pdk" />
+  <project path="vendor/cm" name="ChronosRom/android_vendor_cm" remote="ChronosRom" revision="cm-11.0" />
 
   <!-- AOSP -->
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
