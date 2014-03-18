@@ -31,6 +31,6 @@ After the sync is finished, please read the [instructions from the Android site]
 You can also build (and see how long it took) for specific devices like this:
 
     chmod 755 build.sh
-    ./build.sh -d jfltecan
+    ./build.sh -d jflte
 
 Remember to `make clobber` every now and then!
