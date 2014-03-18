@@ -7,9 +7,21 @@
            remote="aosp"
            sync-j="4" />
 
-  <project path="build" name="platform/build" groups="pdk" >
+  <remote name="github"
+           fetch="git://github.com/" />
+
+  <!-- Chronos -->
+  <project path="build" name="ChronosRom/chronos_build" remote="github" revision="cr-4.4" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
+  <project path="chronos_manifest" name="ChronosRom/chronos_manifest" remote="github" revision="cr4.4" />
+  <project path="vendor/chronos" name="ChronosRom/vendor_chronos" remote="github" revision="cr-4.4" >
+      <copyfile src="tools/build.sh" dest="build.sh" />
+  </project>
+  <project path="system/core" name="ChronosRom/platform_system_core" remote="github" revision="cr-4.4" groups="pdk" />
+  <project path="vendor/cm" name="ChronosRom/android_vendor_cm" remote="github" revision="cm-11.0" />
+
+  <!-- AOSP -->
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
   <project path="art" name="platform/art" />
   <project path="bionic" name="platform/bionic" groups="pdk" />
@@ -410,7 +422,7 @@
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" groups="pdk" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" />
   <project path="sdk" name="platform/sdk" />
-  <project path="system/core" name="platform/system/core" groups="pdk" />
+  
   <project path="system/extras" name="platform/system/extras" groups="pdk" />
   <project path="system/media" name="platform/system/media" groups="pdk" />
   <project path="system/netd" name="platform/system/netd" groups="pdk" />
