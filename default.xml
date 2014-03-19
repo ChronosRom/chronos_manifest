@@ -8,7 +8,7 @@
   <remote  name="ChronosRom"
            fetch="https://github.com/" />
 
-  <remote name="github"
+  <remote  name="github"
            fetch=".."
            review="review.cyanogenmod.org" />
 
@@ -16,7 +16,7 @@
            remote="aosp"
            sync-j="4" />
 
-    <!-- Chronos -->
+  <!-- Chronos -->
   <project path="build" name="ChronosRom/chronos_build" remote="ChronosRom" revision="cr-4.4" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
@@ -24,6 +24,8 @@
   <project path="vendor/chronos" name="ChronosRom/vendor_chronos" remote="ChronosRom" revision="cr-4.4" >
       <copyfile src="tools/build.sh" dest="build.sh" />
   </project>
+  <project path="frameworks/native" name="Chronosrom/frameworks_native" remote="ChronosRom" revision="cr-4.4" groups="pdk" />
+  <project path="hardware/qcom/display" name="Chronosrom/hardware_qcom_display" remote="ChronosRom" revision="cr-4.4" groups="qcom" />
   <project path="system/core" name="ChronosRom/platform_system_core" remote="ChronosRom" revision="cr-4.4" groups="pdk" />
   <project path="vendor/cm" name="ChronosRom/android_vendor_cm" remote="ChronosRom" revision="cm-11.0" />
 
@@ -264,7 +266,7 @@
   <project path="frameworks/ex" name="platform/frameworks/ex" />
   <project path="frameworks/mff" name="platform/frameworks/mff" />
   <project path="frameworks/ml" name="platform/frameworks/ml" />
-  <project path="frameworks/native" name="platform/frameworks/native" groups="pdk" />
+
   <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" />
   <project path="frameworks/opt/carddav" name="platform/frameworks/opt/carddav" />
   <project path="frameworks/opt/colorpicker" name="platform/frameworks/opt/colorpicker" />
@@ -294,7 +296,6 @@
   <project path="hardware/qcom/audio" name="platform/hardware/qcom/audio" groups="qcom" />
   <project path="hardware/qcom/bt" name="platform/hardware/qcom/bt" groups="qcom" />
   <project path="hardware/qcom/camera" name="platform/hardware/qcom/camera" groups="qcom" />
-  <project path="hardware/qcom/display" name="platform/hardware/qcom/display" groups="qcom" />
   <project path="hardware/qcom/keymaster" name="platform/hardware/qcom/keymaster" groups="qcom" />
   <project path="hardware/qcom/media" name="platform/hardware/qcom/media" groups="qcom" />
   <project path="hardware/qcom/msm8960" name="platform/hardware/qcom/msm8960" groups="qcom_msm8960" />
