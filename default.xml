@@ -25,7 +25,12 @@
       <copyfile src="tools/build.sh" dest="build.sh" />
   </project>
   <project path="frameworks/native" name="Chronosrom/frameworks_native" remote="ChronosRom" revision="cr-4.4" groups="pdk" />
+  <project path="hardware/qcom/audio" name="Chronosrom/android_hardware_qcom_audio" remote="ChronosRom" revision="cr-4.4" groups="qcom" />
+  <project path="hardware/qcom/audio-caf" name="Chronosrom/android_hardware_qcom_audio-caf" remote="ChronosRom" revision="cr-4.4" groups="qcom" />
   <project path="hardware/qcom/display" name="Chronosrom/hardware_qcom_display" remote="ChronosRom" revision="cr-4.4" groups="qcom" />
+  <project path="hardware/qcom/media" name="Chronosrom/android_hardware_qcom_media" remote="ChronosRom" revision="cr-4.4" groups="qcom" />
+  <project path="hardware/qcom/media-caf" name="Chronosrom/android_hardware_qcom_media-caf" remote="ChronosRom" revision="cr-4.4" groups="qcom" />
+  <project path="hardware/qcom/media-caf-new" name="Chronosrom/android_hardware_qcom_media-caf-new" remote="ChronosRom" revision="cr-4.4" groups="qcom" />
   <project path="system/core" name="ChronosRom/platform_system_core" remote="ChronosRom" revision="cr-4.4" groups="pdk" />
   <project path="vendor/cm" name="ChronosRom/android_vendor_cm" remote="ChronosRom" revision="cm-11.0" />
 
@@ -266,7 +271,6 @@
   <project path="frameworks/ex" name="platform/frameworks/ex" />
   <project path="frameworks/mff" name="platform/frameworks/mff" />
   <project path="frameworks/ml" name="platform/frameworks/ml" />
-
   <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" />
   <project path="frameworks/opt/carddav" name="platform/frameworks/opt/carddav" />
   <project path="frameworks/opt/colorpicker" name="platform/frameworks/opt/colorpicker" />
@@ -293,11 +297,9 @@
   <project path="hardware/invensense" name="platform/hardware/invensense" groups="invensense" />
   <project path="hardware/libhardware" name="platform/hardware/libhardware" groups="pdk" />
   <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" groups="pdk" />
-  <project path="hardware/qcom/audio" name="platform/hardware/qcom/audio" groups="qcom" />
   <project path="hardware/qcom/bt" name="platform/hardware/qcom/bt" groups="qcom" />
   <project path="hardware/qcom/camera" name="platform/hardware/qcom/camera" groups="qcom" />
   <project path="hardware/qcom/keymaster" name="platform/hardware/qcom/keymaster" groups="qcom" />
-  <project path="hardware/qcom/media" name="platform/hardware/qcom/media" groups="qcom" />
   <project path="hardware/qcom/msm8960" name="platform/hardware/qcom/msm8960" groups="qcom_msm8960" />
   <project path="hardware/qcom/msm8x74" name="platform/hardware/qcom/msm8x74" groups="qcom_msm8x74" />
   <project path="hardware/qcom/power" name="platform/hardware/qcom/power" groups="qcom" />
