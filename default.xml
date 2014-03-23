@@ -24,7 +24,7 @@
   <project path="vendor/chronos" name="ChronosRom/vendor_chronos" remote="ChronosRom" revision="cr-4.4" >
       <copyfile src="tools/build.sh" dest="build.sh" />
   </project>
-  <project path="frameworks/native" name="Chronosrom/frameworks_native" remote="ChronosRom" revision="cr-4.4" groups="pdk" />
+  <project path="frameworks/native" name="Chronosrom/android_frameworks_native" remote="ChronosRom" revision="cr-4.4" groups="pdk" />
   <project path="hardware/qcom/audio" name="Chronosrom/android_hardware_qcom_audio" remote="ChronosRom" revision="cr-4.4" groups="qcom" />
   <project path="hardware/qcom/audio-caf" name="Chronosrom/android_hardware_qcom_audio-caf" remote="ChronosRom" revision="cr-4.4" groups="qcom" />
   <project path="hardware/qcom/display" name="Chronosrom/hardware_qcom_display" remote="ChronosRom" revision="cr-4.4" groups="qcom" />
