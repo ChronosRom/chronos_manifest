@@ -31,7 +31,7 @@
   <project path="hardware/qcom/media" name="Chronosrom/android_hardware_qcom_media" remote="ChronosRom" revision="cr-4.4" groups="qcom" />
   <project path="hardware/qcom/media-caf" name="Chronosrom/android_hardware_qcom_media-caf" remote="ChronosRom" revision="cr-4.4" groups="qcom" />
   <project path="hardware/qcom/media-caf-new" name="Chronosrom/android_hardware_qcom_media-caf-new" remote="ChronosRom" revision="cr-4.4" groups="qcom" />
-  <project path="system/core" name="ChronosRom/platform_system_core" remote="ChronosRom" revision="cr-4.4" groups="pdk" />
+  <project path="system/core" name="ChronosRom/android_system_core" remote="ChronosRom" revision="cr-4.4" groups="pdk" />
   <project path="vendor/cm" name="ChronosRom/android_vendor_cm" remote="ChronosRom" revision="cm-11.0" />
 
   <!-- CM -->
