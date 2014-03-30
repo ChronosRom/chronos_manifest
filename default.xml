@@ -27,6 +27,8 @@
   <project path="frameworks/av" name="Chronosrom/android_frameworks_av" remote="ChronosRom" revision="cr-4.4" groups="pdk" />
   <project path="frameworks/base" name="Chronosrom/android_frameworks_base" remote="ChronosRom" revision="cr-4.4"/>
   <project path="frameworks/native" name="Chronosrom/android_frameworks_native" remote="ChronosRom" revision="cr-4.4" groups="pdk" />
+  <project path="hardware/libhardware" name="Chronosrom/android_hardware_libhardware" remote="Chronosrom" revision="cr-4.4" groups="pdk" />
+  <project path="hardware/libhardware_legacy" name="Chronosrom/android_hardware_libhardware_legacy" remote="Chronosrom" revision="cr-4.4" groups="pdk" />
   <project path="hardware/qcom/audio" name="Chronosrom/android_hardware_qcom_audio" remote="ChronosRom" revision="cr-4.4" groups="qcom" />
   <project path="hardware/qcom/audio-caf" name="Chronosrom/android_hardware_qcom_audio-caf" remote="ChronosRom" revision="cr-4.4" groups="qcom" />
   <project path="hardware/qcom/display" name="Chronosrom/android_hardware_qcom_display" remote="ChronosRom" revision="cr-4.4" groups="qcom" />
@@ -47,8 +49,6 @@
   <project path="hardware/qcom/power" name="CyanogenMod/android_hardware_qcom_power" remote="github" revision="cm-11.0" />
   <project path="hardware/qcom/sensors" name="CyanogenMod/android_hardware_qcom_sensors" remote="github" revision="cm-11.0" />
   <project path="hardware/qcom/wlan" name="CyanogenMod/android_hardware_qcom_wlan" remote="github" revision="cm-11.0" />
-  <project path="hardware/libhardware" name="CyanogenMod/android_hardware_libhardware" remote="github" revision="cm-11.0" groups="pdk" />
-  <project path="hardware/libhardware_legacy" name="CyanogenMod/android_hardware_libhardware_legacy" remote="github" revision="cm-11.0" groups="pdk" />
   <project path="hardware/ril" name="CyanogenMod/android_hardware_ril" remote="github" revision="cm-11.0" groups="pdk" />
   <project path="system/media" name="CyanogenMod/android_system_media" remote="github" revision="cm-11.0" groups="pdk" />
   <project path="system/qcom" name="CyanogenMod/android_system_qcom" remote="github" revision="cm-11.0" groups="pdk" />
