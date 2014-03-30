@@ -24,19 +24,19 @@
   <project path="vendor/chronos" name="ChronosRom/vendor_chronos" remote="ChronosRom" revision="cr-4.4" >
       <copyfile src="tools/build.sh" dest="build.sh" />
   </project>
-  <project path="frameworks/av" name="Chronosrom/android_frameworks_av" remote="ChronosRom" revision="cr-4.4" groups="pdk" />
-  <project path="frameworks/base" name="Chronosrom/android_frameworks_base" remote="ChronosRom" revision="cr-4.4"/>
-  <project path="frameworks/native" name="Chronosrom/android_frameworks_native" remote="ChronosRom" revision="cr-4.4" groups="pdk" />
-  <project path="hardware/libhardware" name="Chronosrom/android_hardware_libhardware" remote="Chronosrom" revision="cr-4.4" groups="pdk" />
-  <project path="hardware/libhardware_legacy" name="Chronosrom/android_hardware_libhardware_legacy" remote="Chronosrom" revision="cr-4.4" groups="pdk" />
-  <project path="hardware/qcom/audio" name="Chronosrom/android_hardware_qcom_audio" remote="ChronosRom" revision="cr-4.4" groups="qcom" />
-  <project path="hardware/qcom/audio-caf" name="Chronosrom/android_hardware_qcom_audio-caf" remote="ChronosRom" revision="cr-4.4" groups="qcom" />
-  <project path="hardware/qcom/display" name="Chronosrom/android_hardware_qcom_display" remote="ChronosRom" revision="cr-4.4" groups="qcom" />
-  <project path="hardware/qcom/display-caf" name="Chronosrom/android_hardware_qcom_display-caf" remote="ChronosRom" revision="cr-4.4" groups="qcom" />
-  <project path="hardware/qcom/display-caf-new" name="Chronosrom/android_hardware_qcom_display-caf-new" remote="ChronosRom" revision="cr-4.4" groups="qcom" />
-  <project path="hardware/qcom/media" name="Chronosrom/android_hardware_qcom_media" remote="ChronosRom" revision="cr-4.4" groups="qcom" />
-  <project path="hardware/qcom/media-caf" name="Chronosrom/android_hardware_qcom_media-caf" remote="ChronosRom" revision="cr-4.4" groups="qcom" />
-  <project path="hardware/qcom/media-caf-new" name="Chronosrom/android_hardware_qcom_media-caf-new" remote="ChronosRom" revision="cr-4.4" groups="qcom" />
+  <project path="frameworks/av" name="ChronosRom/android_frameworks_av" remote="ChronosRom" revision="cr-4.4" groups="pdk" />
+  <project path="frameworks/base" name="ChronosRom/android_frameworks_base" remote="ChronosRom" revision="cr-4.4"/>
+  <project path="frameworks/native" name="ChronosRom/android_frameworks_native" remote="ChronosRom" revision="cr-4.4" groups="pdk" />
+  <project path="hardware/libhardware" name="ChronosRom/android_hardware_libhardware" remote="ChronosRom" revision="cr-4.4" groups="pdk" />
+  <project path="hardware/libhardware_legacy" name="ChronosRom/android_hardware_libhardware_legacy" remote="ChronosRom" revision="cr-4.4" groups="pdk" />
+  <project path="hardware/qcom/audio" name="ChronosRom/android_hardware_qcom_audio" remote="ChronosRom" revision="cr-4.4" groups="qcom" />
+  <project path="hardware/qcom/audio-caf" name="ChronosRom/android_hardware_qcom_audio-caf" remote="ChronosRom" revision="cr-4.4" groups="qcom" />
+  <project path="hardware/qcom/display" name="ChronosRom/android_hardware_qcom_display" remote="ChronosRom" revision="cr-4.4" groups="qcom" />
+  <project path="hardware/qcom/display-caf" name="ChronosRom/android_hardware_qcom_display-caf" remote="ChronosRom" revision="cr-4.4" groups="qcom" />
+  <project path="hardware/qcom/display-caf-new" name="ChronosRom/android_hardware_qcom_display-caf-new" remote="ChronosRom" revision="cr-4.4" groups="qcom" />
+  <project path="hardware/qcom/media" name="ChronosRom/android_hardware_qcom_media" remote="ChronosRom" revision="cr-4.4" groups="qcom" />
+  <project path="hardware/qcom/media-caf" name="ChronosRom/android_hardware_qcom_media-caf" remote="ChronosRom" revision="cr-4.4" groups="qcom" />
+  <project path="hardware/qcom/media-caf-new" name="ChronosRom/android_hardware_qcom_media-caf-new" remote="ChronosRom" revision="cr-4.4" groups="qcom" />
   <project path="system/core" name="ChronosRom/android_system_core" remote="ChronosRom" revision="cr-4.4" groups="pdk" />
   <project path="vendor/cm" name="ChronosRom/android_vendor_cm" remote="ChronosRom" revision="cm-11.0" />
 
