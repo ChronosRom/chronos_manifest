@@ -24,6 +24,7 @@
   <project path="vendor/chronos" name="ChronosRom/vendor_chronos" remote="ChronosRom" revision="cr-4.4" >
       <copyfile src="tools/build.sh" dest="build.sh" />
   </project>
+  <project path="external/bluetooth/bluedroid" name="ChronosRom/android_external_bluetooth_bluedroid" remote="ChronosRom" revision="cr-4.4" groups="pdk" />
   <project path="frameworks/av" name="ChronosRom/android_frameworks_av" remote="ChronosRom" revision="cr-4.4" groups="pdk" />
   <project path="frameworks/base" name="ChronosRom/android_frameworks_base" remote="ChronosRom" revision="cr-4.4"/>
   <project path="frameworks/native" name="ChronosRom/android_frameworks_native" remote="ChronosRom" revision="cr-4.4" groups="pdk" />
@@ -102,7 +103,6 @@
   <project path="external/arduino" name="platform/external/arduino" />
   <project path="external/bison" name="platform/external/bison" groups="pdk" />
   <project path="external/blktrace" name="platform/external/blktrace" />
-  <project path="external/bluetooth/bluedroid" name="platform/external/bluetooth/bluedroid" groups="pdk" />
   <project path="external/bouncycastle" name="platform/external/bouncycastle" />
   <project path="external/bsdiff" name="platform/external/bsdiff" groups="pdk" />
   <project path="external/bzip2" name="platform/external/bzip2" groups="pdk" />
