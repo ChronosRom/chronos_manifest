@@ -28,6 +28,7 @@
   <project path="frameworks/av" name="ChronosRom/android_frameworks_av" remote="ChronosRom" revision="cr-4.4" groups="pdk" />
   <project path="frameworks/base" name="ChronosRom/android_frameworks_base" remote="ChronosRom" revision="cr-4.4"/>
   <project path="frameworks/native" name="ChronosRom/android_frameworks_native" remote="ChronosRom" revision="cr-4.4" groups="pdk" />
+  <project path="frameworks/opt/telephony" name="ChronosRom/android_frameworks_opt_telephony" remote="ChronosRom" revision="cr-4.4" groups="pdk" />
   <project path="hardware/libhardware" name="ChronosRom/android_hardware_libhardware" remote="ChronosRom" revision="cr-4.4" groups="pdk" />
   <project path="hardware/libhardware_legacy" name="ChronosRom/android_hardware_libhardware_legacy" remote="ChronosRom" revision="cr-4.4" groups="pdk" />
   <project path="hardware/qcom/audio" name="ChronosRom/android_hardware_qcom_audio" remote="ChronosRom" revision="cr-4.4" groups="qcom" />
@@ -38,6 +39,7 @@
   <project path="hardware/qcom/media" name="ChronosRom/android_hardware_qcom_media" remote="ChronosRom" revision="cr-4.4" groups="qcom" />
   <project path="hardware/qcom/media-caf" name="ChronosRom/android_hardware_qcom_media-caf" remote="ChronosRom" revision="cr-4.4" groups="qcom" />
   <project path="hardware/qcom/media-caf-new" name="ChronosRom/android_hardware_qcom_media-caf-new" remote="ChronosRom" revision="cr-4.4" groups="qcom" />
+  <project path="packages/services/Telephony" name="ChronosRom/android_packages_services_Telephony" remote="ChronosRom" revision="cr-4.4" />
   <project path="system/core" name="ChronosRom/android_system_core" remote="ChronosRom" revision="cr-4.4" groups="pdk" />
   <project path="vendor/cm" name="ChronosRom/android_vendor_cm" remote="ChronosRom" revision="cm-11.0" />
 
@@ -299,7 +301,6 @@
   <project path="frameworks/opt/net/voip" name="platform/frameworks/opt/net/voip" />
   <project path="frameworks/opt/photoviewer" name="platform/frameworks/opt/photoviewer" />
   <project path="frameworks/opt/timezonepicker" name="platform/frameworks/opt/timezonepicker" />
-  <project path="frameworks/opt/telephony" name="platform/frameworks/opt/telephony" groups="pdk" />
   <project path="frameworks/opt/vcard" name="platform/frameworks/opt/vcard" />
   <project path="frameworks/rs" name="platform/frameworks/rs" groups="pdk" />
   <project path="frameworks/support" name="platform/frameworks/support" />
@@ -380,7 +381,6 @@
   <project path="packages/screensavers/Basic" name="platform/packages/screensavers/Basic" />
   <project path="packages/screensavers/PhotoTable" name="platform/packages/screensavers/PhotoTable" />
   <project path="packages/screensavers/WebView" name="platform/packages/screensavers/WebView" />
-  <project path="packages/services/Telephony" name="platform/packages/services/Telephony" />
   <project path="packages/wallpapers/Basic" name="platform/packages/wallpapers/Basic" />
   <project path="packages/wallpapers/Galaxy4" name="platform/packages/wallpapers/Galaxy4" />
   <project path="packages/wallpapers/HoloSpiral" name="platform/packages/wallpapers/HoloSpiral" />
